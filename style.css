@@ -1,0 +1,112 @@
+body{
+    background-color :#6BDBE8;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: #658ec6;
+    font-family: 'Lato', sans-serif;
+}
+.main{
+    display:fles;
+    margin:200px;
+    margin-top:60px;
+    
+    /* background-color: aqua; */
+    background:linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255,0.3));
+    border-radius: 20px;
+    
+}
+input{
+    padding: 15px;
+    border: 5px; 
+    border:none;
+    background-color: rgba(250, 250, 250, 0.7);
+    border-radius: 5px;;
+    border-bottom:3px solid blue;;  
+}
+select{
+    padding: 15px;
+    border: 5px; 
+    border:none;
+    background-color: rgba(250, 250, 250, 0.7);
+    border-radius: 5px;;
+    border-bottom:3px solid blue;
+    width: 175px;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:10px;
+  
+    margin:100px;
+}
+.inputdata1{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    /* background-color: brown; */
+}
+.inputdata2{
+    width:50%;
+    font-family: 'Lato', sans-serif;
+    /* background-color: chartreuse; */
+    margin-left: 90px;
+   
+
+}
+.inputdata1:hover{
+    border-bottom: blue;
+}
+.inputdata:hover{
+    
+}
+.input select{
+    border:2px solid blue;
+    border-radius: 10px;
+    
+}
+.container2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    font-family: 'Lato', sans-serif;
+    
+}
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+    margin-top:2px;
+    border:3px solid rgb(65, 65, 181); 
+    border-radius: 100px;
+    width: 400px;
+
+}
+
+.circle1,
+.circle2 {
+    /* background: white; */
+    
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+    top: 10%;
+    right: 3%;
+    background:linear-gradient( to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255,0.2));
+}
+
+.circle2 {
+    bottom: 0%;
+    left: 2%;
+    background:linear-gradient( to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255,0.3));
+}
